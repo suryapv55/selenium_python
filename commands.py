@@ -9,6 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 
+#adding to GIT
 
 driver= webdriver.Chrome(service = Service(ChromeDriverManager().install()))
 '''
