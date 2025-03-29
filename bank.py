@@ -61,3 +61,5 @@ for r in range(2, rows + 1):
         ExcelUtils.fillRed(file, "Sheet1", r, 8)
 
     driver.find_element(By.XPATH, "//*[@id='fdMatVal']/div[2]/a[2]/img").click()
+
+#Bank interest
